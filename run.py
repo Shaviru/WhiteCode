@@ -15,7 +15,7 @@ st.markdown(
     """,
     unsafe_allow_html=True
 )
-st.markdown("<h1 style='text-align: center; color:White; '>WhiteCode IDE</h1>", unsafe_allow_html=True)
+st.markdown("<h1 style='text-align: center; color:White; '>WhiteCode Editor</h1>", unsafe_allow_html=True)
 st.markdown("""
     <style>
     }
