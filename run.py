@@ -31,7 +31,7 @@ st.sidebar.markdown("""
 lang = ['python', 'java', 'html']
 lang_var = st.sidebar.selectbox('Select the programming language', lang)
 
-input_style = '<p style="font-family:sans-serif; color:White; font-size: 30px;">Input your code here:</p>'
+input_style = '<p style="font-family:sans-serif; color:White; font-size: 30px;">Write your code here:</p>'
 st.markdown(input_style, unsafe_allow_html=True)
 code = st_ace(language = lang_var,
 theme='vibrant_ink', wrap=False, show_print_margin=True,
