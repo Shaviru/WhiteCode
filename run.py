@@ -44,7 +44,7 @@ from streamlit_ace import st_ace
 
 st.title("Code Editor on Streamlit")
 
-first,second = st.beta_columns(2)
+first,second = st.columns(2)
 
 with first:
     st.markdown("## Input")
